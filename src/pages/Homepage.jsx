@@ -183,15 +183,15 @@ function Homepage() {
           calculateSurchargeInterestRate(_lateDays);
         const _surcharge = calculateSurchage(_surchargeInterestRate, _gratuity);
         const _total = calculateTotalPayable(_surcharge, _gratuity);
-        console.log(
-          _serviceYears,
-          _dayToPay,
-          _gratuity,
-          _lateDays,
-          _surchargeInterestRate,
-          _surcharge,
-          _total
-        );
+        // console.log(
+        //   _serviceYears,
+        //   _dayToPay,
+        //   _gratuity,
+        //   _lateDays,
+        //   _surchargeInterestRate,
+        //   _surcharge,
+        //   _total
+        // );
 
         break;
 
