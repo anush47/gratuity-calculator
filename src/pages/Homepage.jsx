@@ -192,6 +192,9 @@ function Homepage() {
         //   _surcharge,
         //   _total
         // );
+        document
+          .getElementById("details-section")
+          .scrollIntoView({ behavior: "smooth" });
 
         break;
 
@@ -270,7 +273,7 @@ function Homepage() {
           </div>
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-6" id="details-section">
           <div className="card p-4 bg-success text-light">
             <label className="h4">Details</label>
             <div className="card-body">
