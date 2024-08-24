@@ -1,3 +1,90 @@
+Here's a README for your gratuity payment calculator:
+
+---
+
+# Gratuity Payment Calculator
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen)](https://anush47.github.io/gratuity-calculator/)
+
+## Overview
+
+The Gratuity Payment Calculator is a web application developed to assist labor officers, employers, and employees in Sri Lanka with the accurate calculation of gratuity payments. Traditionally, these calculations are performed manually, which can be time-consuming and prone to errors. This tool aims to streamline the process by providing a user-friendly interface that automates the calculation based on the input data.
+
+## Features
+
+- **Accurate Calculations**: Calculates gratuity payments based on Sri Lankan labor laws.
+- **User-Friendly Interface**: Easy-to-use interface designed for quick data entry and results.
+- **Accessibility**: Available online for access by labor officers, employers, and employees at any time.
+- **Instant Results**: Provides immediate calculations without the need for manual processing.
+
+## Live Demo
+
+Check out the live version of the application [here](https://anush47.github.io/gratuity-calculator/).
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm (v6 or later)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/anush47/gratuity-calculator.git
+   cd gratuity-calculator
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+   The application will be running at `http://localhost:3000`.
+
+### Building for Production
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+This will create a `build` directory with all the optimized files ready to be deployed.
+
+### Deploying to GitHub Pages
+
+The project is configured to be easily deployed to GitHub Pages. Simply run:
+
+```bash
+npm run deploy
+```
+
+## How to Use
+
+1. **Enter Employee Details**: Input the necessary details like years of service, last drawn salary, etc.
+2. **Calculate**: Click on the "Calculate" button to get the gratuity amount.
+3. **Review**: Review the calculated gratuity payment displayed on the screen.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or want to contribute code, feel free to fork the repository and submit a pull request.
+
+
+## Acknowledgments
+
+- Inspired by the need to assist labor officers, employers, and employees in Sri Lanka.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
